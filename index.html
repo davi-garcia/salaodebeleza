@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espaço Beauty</title>
+    <link rel="shortcut icon" href="imagens/icons/barbeiro.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header e Menu Hamburguer -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <span class="espaco">Espaço</span> <span class="beauty">Beauty</span>
+            </div>
+            <nav class="desktop-menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="#agendamento">Agendamento</a></li>
+                    <li><a href="#curso">Curso</a></li>
+                    <li><a href="#localizacao">Localização</a></li>
+                </ul>
+            </nav>
+            <button class="hamburger" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Menu Mobile -->
+    <div class="mobile-menu">
+        <button class="close-menu" aria-label="Fechar menu">×</button>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#agendamento">Agendamento</a></li>
+                <li><a href="#curso">Curso</a></li>
+                <li><a href="#localizacao">Localização</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Seção Hero -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>BELEZA QUE <span>TRANSFORMA</span></h1>
+            <p>Cuidados com excelência</p>
+            <a href="#agendamento" class="btn">AGENDAR HORÁRIO</a>
+        </div>
+        <div class="scroll-down">
+            <img src="imagens/icons/arrow-down.svg" alt="Scroll down" class="pulse">
+        </div>
+    </section>
+
+    <!-- Slides -->
+<section class="slides">
+    <div class="slider">
+        <!-- Apenas o container - os slides serão inseridos pelo JavaScript -->
+        <div class="slider-nav">
+            <button class="slider-prev">‹</button>
+            <button class="slider-next">›</button>
+        </div>
+    </div>
+</section>
+
+    <!-- SERVIÇOS -->
+    <section id="servicos" class="services">
+        <div class="container">
+            <h2 class="section-title">NOSSOS <span>SERVIÇOS</span></h2>
+
+            <div class="services-grid">
+
+                <div class="service-card">
+                    <div class="service-icon">💇‍♀️</div>
+                    <h3>Corte Feminino</h3>
+                    <p>Moderno, sofisticado e alinhado ao seu estilo. Corte profissional com visagismo.</p>
+                    <span class="price">R$ 45,00</span>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">💨</div>
+                    <h3>Escova & Babyliss</h3>
+                    <p>Modelagem perfeita, brilho instantâneo e durabilidade para qualquer ocasião.</p>
+                    <span class="price">R$ 35,00</span>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🌈</div>
+                    <h3>Coloração</h3>
+                    <p>Tons vibrantes, cobertura perfeita e tecnologia que preserva a saúde dos fios.</p>
+                    <span class="price">R$ 70,00</span>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">✨</div>
+                    <h3>Mechas / Luzes</h3>
+                    <p>Técnicas modernas para iluminar seus fios com naturalidade e sofisticação.</p>
+                    <span class="price">R$ 150,00</span>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">💆‍♀️</div>
+                    <h3>Hidratação Profunda</h3>
+                    <p>Recuperação intensa, nutrição e brilho imediato para todos os tipos de cabelo.</p>
+                    <span class="price">R$ 40,00</span>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🔥</div>
+                    <h3>Progressiva / Botox</h3>
+                    <p>Redução máxima do frizz e fios alinhados com tecnologia de longa duração.</p>
+                    <span class="price">R$ 120,00</span>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">👁️</div>
+                    <h3>Design de Sobrancelhas</h3>
+                    <p>Realce natural da sua expressão com a simetria perfeita.</p>
+                    <span class="price">R$ 20,00</span>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">💅</div>
+                    <h3>Manicure & Pedicure</h3>
+                    <p>Beleza e cuidado com acabamento impecável e técnicas profissionais.</p>
+                    <span class="price">R$ 30,00</span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- Galeria -->
+    <section id="galeria" class="gallery">
+        <h2 class="section-title">GALERIA DE <span>TRABALHOS</span></h2>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="imagens/galeria/12.webp" alt="Foto da barbearia">
+            </div>
+            <div class="gallery-item">
+                <img src="imagens/galeria/13.webp" alt="Foto da barbearia de outro ângulo">
+            </div>
+            <div class="gallery-item">
+                <img src="imagens/galeria/1.webp" alt="Foto de cliente">
+            </div>
+            <div class="gallery-item">
+                <img src="imagens/galeria/2.webp" alt="Foto de cliente">
+            </div>
+            <div class="gallery-item">
+                <img src="imagens/galeria/3.webp" alt="Foto de cliente">
+            </div>
+            <div class="gallery-item">
+                <img src="imagens/galeria/4.webp" alt="Foto de cliente">
+            </div>
+            <div class="gallery-item">
+                <img src="imagens/galeria/5.webp" alt="Foto de cliente">
+            </div>
+            <div class="gallery-item">
+                <img src="imagens/galeria/6.webp" alt="Foto de cliente">
+            </div>
+            <div class="gallery-item">
+                <img src="imagens/galeria/7.webp" alt="Foto de cliente">
+            </div>
+            <div class="gallery-item">
+                <img src="imagens/galeria/8.webp" alt="Foto de cliente">
+            </div>
+        </div>
+    </section>
+
+    <!-- Agendamento -->
+    <section id="agendamento" class="booking">
+        <div class="container">
+            <h2 class="section-title">AGENDE SEU <span>HORÁRIO</span></h2>
+            <form id="form-agendamento" class="booking-form" autocomplete="on">
+                <div class="form-group">
+                    <p>Nome</p>
+                    <input type="text" id="nome" placeholder="Seu nome" required autocomplete="name">
+                </div>
+                <div class="form-group">
+                    <p>Telefone</p>
+                    <input type="tel" id="telefone" placeholder="Telefone" required autocomplete="tel-local">
+                </div>
+                <div class="form-group">
+                    <p>E-mail</p>
+                    <input type="email" id="email" placeholder="E-mail" autocomplete="email">
+                </div>
+                <div class="form-group">
+                    <p>Serviço</p>
+                    <select id="servico" required>
+                        <option value="">Selecione o serviço</option>
+                        <option value="corte">Corte Feminino</option>
+                        <option value="corte">Escova & Babyliss</option>
+                        <option value="corte">Corte de Cabelo Curto</option>
+                        <option value="corte">Coloração</option>
+                        <option value="corte">Sobrancelha</option>
+                        <option value="corte">Mechas/Luzes</option>
+                        <option value="corte">Corte + Tinta</option>
+                        <option value="corte">Hidratação Profunda</option>
+                        <option value="corte">Progressiva/Botox</option>
+                        <option value="corte">Design de Sobrancelhas</option>
+                        <option value="corte">Manicure & Pedicure</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <p>Data</p>
+                    <input type="date" id="data" required>
+                </div>
+                <div class="form-group">
+                    <p>Horário</p>
+                    <input type="time" id="horario" required>
+                </div>
+                <button type="submit" class="btn">AGENDAR</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Sobre o Curso -->
+    <section id="curso" class="course">
+        <div class="container">
+            <div class="course-content">
+                <h2 class="section-title">CURSO DE <span>CABELEIREIRA</span></h2>
+                <p>Aprenda as técnicas profissionais de corte com a nossa mestre cabeleireira. Curso completo com teoria e prática.</p>
+                <ul>
+                    <li>Módulo básico e avançado</li>
+                    <li>Certificado reconhecido</li>
+                    <li>Aulas individuais e em grupo</li>
+                    <li>Material incluso</li>
+                </ul>
+                <a href="https://wa.me/5521997629317?text=Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20curso" class="btn">SAIBA MAIS</a>
+            </div>
+            <div class="course-image">
+                <img src="imagens/curso/instrutores-do-curso.webp" alt="Imagem com os instrutores do curso de barbeiro">
+            </div>
+        </div>
+    </section>
+
+    <!-- Localização -->
+    <section id="localizacao" class="location">
+        <h2 class="section-title">ONDE <span>ESTAMOS</span></h2>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.2209101731773!2d-43.455121923782556!3d-22.757181632543276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99670784ae407b%3A0x41f1ea4def5bb6ab!2sR.%20Dom%20Walmor%20-%20Centro%2C%20Nova%20Igua%C3%A7u%20-%20RJ!5e0!3m2!1spt-BR!2sbr!4v1765034162329!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="location-info">
+            <div class="info-item">
+                <h3>Endereço</h3>
+                <p>R. Dom Walmor<br>Centro, Nova Iguaçu<br>Rio de Janeiro</p>
+            </div>
+            <div class="info-item">
+                <h3>Horário</h3>
+                <p>Todos os dias:<br>09h às 21h</p>
+            </div>
+            <div class="info-item">
+                <h3>Contato</h3>
+                <p>(21) 90000-0000<br>contato@#</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-logo">
+                <span class="espaco">Beleza</span> <span class="beauty">Beauty</span>
+            </div>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#galeria">Galeria</a></li>
+                        <li><a href="#agendamento">Agendamento</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contato</h3>
+                    <p>contato@#<br>(21) 90000-0000</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Redes Sociais</h3>
+                    <div class="social-icons">
+                        <a href="#"><img src="imagens/icons/facebook.svg" alt="Facebook"></a>
+                        <a href="https://www.instagram.com/" target="_blank"><img src="imagens/icons/instagram.svg" alt="Instagram"></a>
+                        <a href="https://wa.me/5521968439249?text=Olá%20gostaria%20de%20mais%20informações%20" target="_blank"><img src="imagens/icons/whatsapp.svg" alt="WhatsApp"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Beleza Beauty. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/menu.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/submit.js"></script>
+</body>
+</html>
