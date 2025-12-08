@@ -769,3 +769,29 @@ option {
     filter: invert(1); /* Esta linha inverte a cor do ícone (de preto/escuro para branco/claro) */
     cursor: pointer;
 }
+
+.joinchat__button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #25D366;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    z-index: 9999;
+    transition: transform 0.2s ease;
+}
+
+.joinchat__button:hover {
+    transform: scale(1.1);
+}
+
+.joinchat__button img {
+    width: 35px;
+    height: 35px;
+}

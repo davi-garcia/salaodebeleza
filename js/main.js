@@ -34,4 +34,10 @@ document.addEventListener('DOMContentLoaded', function() {
             this.reset();
         });
     }
+
+    document.querySelector('.joinchat__button').onclick = function() {
+    window.open("https://wa.me/5521968439249", "_blank");
+};
+
+
 });
