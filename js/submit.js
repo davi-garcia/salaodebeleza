@@ -10,7 +10,7 @@ document.getElementById('form-agendamento').addEventListener('submit', function(
     const horario = document.getElementById('horario').value;
 
     // Número de telefone para onde a mensagem será enviada (ex: 5511999999999)
-    const numeroWhatsApp = '5521997629317'; 
+    const numeroWhatsApp = '5521968439249'; 
 
     // Monta a mensagem
     const mensagem = `Olá, gostaria de agendar um horário!%0A%0A
