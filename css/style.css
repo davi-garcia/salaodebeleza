@@ -360,6 +360,12 @@ section {
     margin-top: 50px;
 }
 
+.services-grid:hover .service-card:not(:hover) {
+    filter: blur(4px);
+    transition: .3s ease;
+}
+
+
 .service-card {
     background-color: var(--branco);
     border-radius: 10px;
@@ -372,7 +378,18 @@ section {
 .service-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    animation: rotBGimg 3s linear infinite;
+    transition: all 0.2s linear;
 }
+
+.card::after {
+  content: '';
+  position: absolute;
+  background: #07182E;
+  ;
+  inset: 5px;
+  border-radius: 15px;
+}  
 
 .service-icon {
     font-size: 3rem;
@@ -451,6 +468,11 @@ section {
     gap: 20px;
 }
 
+.gallery-grid:hover .gallery-item:not(:hover) {
+    filter: blur(4px);
+    transition: .3s ease;
+}
+
 .gallery-item {
     height: 280px;
     background-color: #ddd;
@@ -471,6 +493,7 @@ section {
     transform: scale(1.05);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
+
 
 /* Booking Section */
 .booking {
