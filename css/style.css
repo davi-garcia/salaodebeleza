@@ -68,6 +68,7 @@ section {
     background-color: rgb(255, 0, 200);
     transform: translateY(-3px);
     box-shadow: 0 10px 20px rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 15px 60px #FF0080;
 }
 
 /* Header */
@@ -498,6 +499,7 @@ section {
     background-color: transparent;
     color: var(--branco);
     font-family: 'Montserrat', sans-serif;
+    box-shadow: 0px 15px 60px #FF0080;
 }
 
 .form-group input::placeholder {
@@ -789,6 +791,7 @@ option {
 
 .joinchat__button:hover {
     transform: scale(1.1);
+    box-shadow: 0px 15px 60px #00ff40;
 }
 
 .joinchat__button img {
